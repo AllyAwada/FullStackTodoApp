@@ -1,0 +1,14 @@
+{
+  "name": "todo-firestore",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "firebase": "^11.6.0",
+    "firebase-admin": "^11.10.1"
+  }
+}

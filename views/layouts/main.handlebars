@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>ToDo</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <h1>To Do</h1>
+                <button class="tema-button" onclick="alterarTema()">
+                    <img src="/imagens/moon-icon.png" alt="Icone da lua para a mudança de tema">
+                </button>
+            </div>
+
+            <form action="/criar" method="post">
+                <input type="text" id="descricao" placeholder="Criar nova tarefa" name="descricao">
+                <button type="submit">Criar</button>
+            </form>
+        </div>
+    </header>
+
+    {{{body}}}
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
